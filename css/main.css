@@ -1,0 +1,60 @@
+#header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  color: #776e65;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+}
+.score {
+  width: 100px;
+  background-color: #776e65;
+  padding: 6px;
+  border-radius: 6px;
+  color: #fff;
+}
+.newGame{
+  width: 100px;
+  display: block;
+  background-color: #776e65;
+  padding: 6px;
+  border-radius: 6px;
+  list-style: none;
+}
+.newGame:hover {
+  background-color: #bdac9c;
+}
+#newgame {
+  color: #fff;
+  text-decoration: none;
+}
+#content {
+  width: 460px;
+  height: 460px;
+  padding: 20px;
+  background-color: #bbada0;
+  margin: 10px auto;
+  border-radius: 10px;
+  position: relative;
+}
+#content .grid-cell {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc0b3;
+  border-radius: 6px;
+  position: absolute;
+}
+#content .number-cell {
+  border-radius: 6px;
+  position: absolute;
+  background-color: red;
+  font: 50px Arial;
+  text-align: center;
+  line-height: 100px;
+}
